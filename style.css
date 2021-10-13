@@ -1,0 +1,113 @@
+* {
+    font-family: sans-serif;
+}
+
+#header {
+    height: 50px;
+    background-color: rgb(37, 58, 104);
+    margin-bottom: 100px;
+}
+
+#calculatorContainer {
+    display: flex;
+    margin: auto;
+    min-width: 300px;
+    width: 35vw;
+    height: 45vw;
+    min-height: 400px;
+    box-sizing: border-box;
+    background-color: rgb(61, 83, 116);
+    padding: 1.5% 1.5%;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+
+#buttonAndOperationsContainer {
+    display: flex;
+    box-sizing: border-box;
+    flex: 4;
+    padding-top: 15px;
+}
+
+#displayContainer {
+    display: flex;
+    background-color: white;
+    flex: 1;
+    max-height: 160px;
+    padding-right: 5%;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#output {
+    font-size: calc(12px + 1vw);
+    font-weight: bolder;
+    
+}
+
+#operationButtonContainer {
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+
+#operationButtonContainer > div{
+    flex: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color:#F0DD77;
+    border:rgb(61, 83, 116) solid 1px;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 8px;
+    font-size: 250%;
+    font-weight: bold;   
+}
+
+#operationButtonContainer >div:hover {
+    cursor: pointer;
+    user-select: none;
+    background-color: white;
+    color: #F0DD77;
+}
+
+#buttonContainer > div {
+    flex-basis: 30%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #6F84A8;
+    color: #DEF1FF;
+    border:rgb(61, 83, 116) solid 1px;
+    border-radius: 15px;
+    margin-bottom: 8px;
+    font-size:250%;
+    font-weight: bold;
+}
+
+#clearButton {
+    padding: 0px 10px 0px 10px;
+    font-size: 20px !important;
+}
+
+#buttonContainer > div:hover {
+    cursor: pointer;
+    user-select: none;
+    background-color: #576c8f;
+    color: white;
+}
+
+#buttonContainer {
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 10px;
+}
